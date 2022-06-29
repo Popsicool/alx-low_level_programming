@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
  * main- entry point
  *
  * Description: Print a set of strings

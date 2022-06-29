@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
  * main- entry point
  *
  * Description: Prints the size of each types
