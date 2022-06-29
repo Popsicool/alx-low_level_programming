@@ -1,10 +1,10 @@
 #include<stdio.h>
 /*
- *main- entry point
+ * main- entry point
  *
- *Description: Print a set of strings
+ * Description: Print a set of strings
  *
- *Return: return 0 after printing
+ * Return: return 0 after printing
  */
 int main(void)
 {

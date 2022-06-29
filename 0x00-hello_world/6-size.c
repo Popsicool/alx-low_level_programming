@@ -1,10 +1,10 @@
 #include<stdio.h>
 /*
- *main- entry point
+ * main- entry point
  *
- *Description: Prints the size of each types
+ * Description: Prints the size of each types
  *
- *Return: Return 0 after all the printings
+ * Return: Return 0 after all the printings
  */
 
 int main(void)

@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /*
- *main- entry point
+ * main- entry point
  *
- *Return: Return 1 after writing
+ * Description: write a set of strings
+ *
+ * Return: Return 1 after writing
  */
 
 
