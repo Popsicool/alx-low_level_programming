@@ -1,6 +1,10 @@
 #include <stdio.h>
+
 /*
  *main-entry point
+ *
+ *Description: prints a set of strings
+ *
  *Return: Return 0 after printing
  */
 

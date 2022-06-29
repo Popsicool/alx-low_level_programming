@@ -2,6 +2,8 @@
 /*
  *main- entry point
  *
+ *Description: Prints the size of each types
+ *
  *Return: Return 0 after all the printings
  */
 

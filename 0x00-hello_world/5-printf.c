@@ -2,6 +2,8 @@
 /*
  *main- entry point
  *
+ *Description: Print a set of strings
+ *
  *Return: return 0 after printing
  */
 int main(void)
