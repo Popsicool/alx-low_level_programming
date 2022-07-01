@@ -9,7 +9,7 @@ int main(void)
 {
 int left_no;
 int right_no;
-int center_no;
+int center;
 
 
 
