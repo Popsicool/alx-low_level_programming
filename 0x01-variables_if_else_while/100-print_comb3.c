@@ -1,40 +1,37 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Description: Printing combination 
- * Return: 0 (Success)
+ * main - entry point
+ * Description: prints between 00 to 89
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-int left_no;
-int right_no;
+int i, e;
 
+i = 48;
+e = 48;
 
-for (left_no = 48; right_no <= 78; left_no++)
+while (e < 58)
 {
-for (right_no = left_no + 1 ; right_no <= 78; right_no++)
+i = 48;
+while (i < 58)
 {
-
-putchar(left_no);
-putchar (right_no);
-
-
-if ((left_no == 56) && (right_no == 78))
+if (e != i && e < i)
+{
+putchar(e);
+putchar(i);
+if (i == 57 && e == 56)
 {
 break;
-	    }
-
+}
 putchar(',');
-putchar (' ');
-
+putchar(' ');
 }
+i++
 }
-
+e++;
+}
 putchar('\n');
-
-
 return (0);
-
-
 }

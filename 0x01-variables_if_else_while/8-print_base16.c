@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * Description: printing base 16
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 
