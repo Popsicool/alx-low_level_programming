@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _isalpha - case function
+ * _isalpha - case function
  *
  * description: check if its a lower or uppercase letter
  *

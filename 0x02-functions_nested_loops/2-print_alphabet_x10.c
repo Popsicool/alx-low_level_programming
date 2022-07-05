@@ -13,7 +13,7 @@ int count= 0;
 while (count < 10)
 {
 int alphabet;
-for (alphabet = "a"; alphabet <= "z"; aphabet++)
+for (alphabet = 97; alphabet <= 122; aphabet++)
 {
 _putchar(alphabet);
 }
