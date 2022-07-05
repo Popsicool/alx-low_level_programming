@@ -4,7 +4,7 @@
  *
  * Description: compute absolute value
  *@n: the integer to pass
- * return the absolute value
+ * Return: (n) the absolute value
  */
 int _abs(int n)
 {

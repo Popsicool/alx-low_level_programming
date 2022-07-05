@@ -4,10 +4,10 @@
  *
  * description: prints 10X alphabets with new line
  *
- * return 0 (success)
+ * return: 0 (success)
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 int count= 0;
 while (count < 10)
