@@ -2,13 +2,13 @@
 /**
  * _abs - entry point
  *
- * description: compute absolute value
- *
+ * Description: compute absolute value
+ *@n: the integer to pass
  * return the absolute value
  */
 int _abs(int n)
 {
-if ( n < 1)
+if (n < 1)
 {
 return (n * (-1));
 }

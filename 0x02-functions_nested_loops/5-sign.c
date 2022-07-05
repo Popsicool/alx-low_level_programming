@@ -2,6 +2,7 @@
 /**
  * print_sign - entry point
  *
+ *@n: the int to print
  * Description: check for sign
  *
  * Return 1 if positive, 0 if zero and -1 if negative

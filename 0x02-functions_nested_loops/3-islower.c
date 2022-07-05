@@ -2,6 +2,7 @@
 /**
  * _islower - entry point
  *
+ *@c: contains value to be compared
  * Description: check if its lower
  *
  * Return 1 if lower, 0 if not
