@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - entry point
  *
- * description: prints lower case alphabets with new line
+ * Description: prints lower case alphabets with new line
  *
- * return 0 (success)
+ * Return 0 (success)
  */
 
 void print_alphabet(void)
