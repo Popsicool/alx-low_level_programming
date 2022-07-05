@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main entry poiny
+ * main: entry poiny
  *
  * Discription: Prints _putchar
  *
