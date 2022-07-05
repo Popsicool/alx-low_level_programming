@@ -1,3 +1,9 @@
+/**
+ * description: main file for all
+ *
+ * Return: return corresponding values
+ */
+
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
