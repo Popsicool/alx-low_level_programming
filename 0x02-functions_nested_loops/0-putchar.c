@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main- entry poiny
+ * main entry poiny
  *
  * Discription: Prints _putchar
  *
@@ -10,7 +10,6 @@
 
 int main(void)
 {
-// Return: 0 (success)
 _putchar('_');
 _putchar('p');
 _putchar('u');
