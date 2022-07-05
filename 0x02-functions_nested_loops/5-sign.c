@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main- entry point
+ * print_sign - entry point
  *
- * description: check for sign
+ * Description: check for sign
  *
- * return 1 if positive, 0 if zero and -1 if negative
+ * Return 1 if positive, 0 if zero and -1 if negative
  */
 int print_sign(int n)
 {

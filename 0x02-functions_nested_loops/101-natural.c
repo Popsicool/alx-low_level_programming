@@ -1,3 +1,10 @@
+#include <stdio.h>
+/**
+ * main - carry out multiplication
+ * Description: Carry out a specific type of calculations
+ * Return: Return 0 (success)
+ */
+
 int main(void)
 {
 int start_num, end_num, total;

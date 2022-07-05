@@ -1,7 +1,7 @@
 File Edit Options Buffers Tools C Help
 #include "main.h"
 /**
- * print_alphabet_x10 - entry point
+ * print_alphabet_x10 - print alphabet
  *
  * description: prints 10X alphabets with new line
  *
@@ -10,10 +10,10 @@ File Edit Options Buffers Tools C Help
 
 void print_alphabet_x10(void);
 {
-int count;
-while (count <= 10)
+int count= 0;
+while (count < 10)
 {
-char alphabet;
+int alphabet;
 for (alphabet = "a"; alphabet <= "z"; aphabet++)
 {
 _putchar(alphabet);

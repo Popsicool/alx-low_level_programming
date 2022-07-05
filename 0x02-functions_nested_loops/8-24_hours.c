@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main- entry point
+ * jack_bauer - entry point
  *
- * description: prints every minutes of the day
+ * Description: prints every minutes of the day
  *
- * return 0
+ * Return 0
  */
 void jack_bauer(void)
 {
@@ -12,7 +12,7 @@ int hour;
 int min;
 for (hour = 0; hour <= 23; hour++)
 {
-for(min = 0; min <= 59; min++)
+for (min = 0; min <= 59; min++)
 {
 _putchar(hour / 10 + '0');
 _putchar(hour % 10 + '0');

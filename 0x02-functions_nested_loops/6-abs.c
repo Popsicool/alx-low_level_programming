@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main- entry point
+ * _abs - entry point
  *
  * description: compute absolute value
  *
@@ -14,6 +14,6 @@ return (n * (-1));
 }
 else
 {
-return (n)
+return (n);
 }
 }
