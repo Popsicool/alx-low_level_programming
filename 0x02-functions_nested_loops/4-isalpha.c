@@ -5,7 +5,7 @@
  * description: check if its a lower or uppercase letter
  *
  *@c: integer to pass
- * return: 1 if lower, 0 if not
+ * Return: 1 if lower, 0 if not
  */
 
 int _isalpha(int c)
