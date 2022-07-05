@@ -5,11 +5,12 @@
  *
  * Discription: Prints _putchar
  *
- * return: 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
+// Return: 0 (success)
 _putchar('_');
 _putchar('p');
 _putchar('u');
