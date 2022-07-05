@@ -1,14 +1,14 @@
 File Edit Options Buffers Tools C Help
 #include "main.h"
 /**
- * main- entry point
+ * print_alphabet_x10 - entry point
  *
  * description: prints 10X alphabets with new line
  *
  * return 0 (success)
  */
 
-int main(void)
+void print_alphabet_x10(void);
 {
 int count;
 while (count <= 10)

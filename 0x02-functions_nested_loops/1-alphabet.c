@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main- entry point
+ * main - entry point
  *
  * description: prints lower case alphabets with new line
  *
@@ -9,14 +9,14 @@
 
 void print_alphabet(void)
 {
-	char alp = 'a';
+char alp = 'a';
 
-	while (alp <= 'z')
-	{
-		_putchar (alp);
-		alp++;
+while (alp <= 'z')
+{
+_putchar (alp);
+alp++;
 
-	}
-	_putchar ('\n');
+}
+_putchar ('\n');
 
 }
