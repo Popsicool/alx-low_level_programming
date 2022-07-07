@@ -5,14 +5,12 @@
  */
 void print_most_numbers(void)
 {
-char n = 0;
-while (n >= 0 && n <= 9)
+int i = '0';
+
+for (; i <= '9'; i++)
 {
-if (n != 2 && n != 4)
-{
-_putchar("0" + n);
-}
-n++; 
+if (i != '2' && i != '4')
+_putchar(i);
 }
 _putchar('\n');
 }

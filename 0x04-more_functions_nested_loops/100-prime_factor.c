@@ -7,15 +7,13 @@
 
 int main(void)
 {
-unsigned int long n = 612852475143, a = (int) sqrt(n);
-while (1)
+unsigned long int i = 3, n = 612852475143;
+
+for (; i < 12057; i += 2)
 {
-if (n % a == 0)
-{
-printf("%lu \n", n / a);
-break;
+while (n % i == 0 && n != i)
+n /= i;
 }
-a--;
-}
+printf("%lu\n", n);
 return (0);
 }

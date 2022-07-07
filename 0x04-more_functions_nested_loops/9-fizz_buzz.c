@@ -4,33 +4,23 @@
  * main - prints fizz, Buzz, FizzBuzz or number
  * Return: none
  */
+
 int main(void)
 {
-int a = 1;
-while (a <= 100)
+int i = 1;
+
+for (; i < 100 ; i++)
 {
-if (a % 15 == 0)
-{
-printf('FizzBuzz');
-}
-else if (a % 3 == 0)
-{
-printf('Fizz');
-}
-else if (a % 5 == 0)
-{
-printf('Buzz');
-}
+if (i % 3 == 0 && i % 5 == 0)
+printf("FizzBuzz ");
+else if (i % 3 == 0)
+printf("Fizz ");
+else if (i % 5 == 0)
+printf("Buzz ");
 else
-{
-printf('%i', a)
+printf("%d ", i);
 }
-if (a != 100)
-{
-printf(' ');
-}
-a++;
-}
-printf('\n');
+printf("Buzz\n");
+
 return (0);
 }

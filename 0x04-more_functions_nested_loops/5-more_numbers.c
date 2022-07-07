@@ -5,21 +5,16 @@
  */
 void more_numbers(void)
 {
-char n = 0;
-while (n<10)
+int i, ch;
+
+for (i = 0; i < 10; i++)
 {
-char x = 0;
-while (x < 14)
+for (ch = 0; ch < 15; ch++)
 {
-if (n < 10)
-{
-_putchar('0' + n);
-}
-else
-{
-_putchar(n);
-}
-}
+if (ch >= 10)
+_putchar((ch / 10) + 48);
+_putchar((ch % 10) + 48);
 }
 _putchar('\n');
+}
 }

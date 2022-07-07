@@ -7,18 +7,18 @@
  */
 void print_square(int size)
 {
+int row;
+int column;
+
 if (size > 0)
 {
-int row = 1;
-while (row <= size)
+for (row = 0; row < size; row++)
 {
-int hash = 1;
-while (hash <= num)
+for (column = 0; column < size; column++)
 {
 _putchar('#');
 }
 _putchar('\n');
-row++;
 }
 }
 else
