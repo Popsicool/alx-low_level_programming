@@ -1,1 +1,1 @@
-A repository for low level programming
+A readme file for alx-low_level_programming directory
