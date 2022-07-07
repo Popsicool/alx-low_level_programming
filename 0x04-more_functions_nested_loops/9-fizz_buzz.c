@@ -29,7 +29,7 @@ if (a != 100)
 {
 printf(' ');
 }
- a++;
+a++;
 }
 printf('\n');
 return (0);

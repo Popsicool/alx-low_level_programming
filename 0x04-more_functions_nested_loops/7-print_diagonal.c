@@ -12,7 +12,7 @@ if (n > 0)
 int  count = 1;
 while (count <= n)
 {
-if(count > 1)
+if (count > 1)
 {
 int a = 1;
 int b =1;
@@ -27,7 +27,7 @@ _putchar('\');
 _putchar('\n');
 count++;
 }
-} 
+}
 else
 {
 _putchar('\n');

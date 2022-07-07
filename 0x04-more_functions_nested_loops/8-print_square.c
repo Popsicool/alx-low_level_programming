@@ -12,10 +12,10 @@ if (size > 0)
 int row = 1;
 while (row <= size)
 {
-int hash=1;
+int hash = 1;
 while (hash <= num)
 {
-_putchar('#'); 
+_putchar('#');
 }
 _putchar('\n');
 row++;

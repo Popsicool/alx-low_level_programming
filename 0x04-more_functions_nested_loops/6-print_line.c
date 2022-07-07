@@ -16,7 +16,10 @@ while (a <= n)
 _putchar('_');
 a++
 }
-}
-
 _putchar('\n');
+}
+else
+{
+_putchar('\n');
+}
 }

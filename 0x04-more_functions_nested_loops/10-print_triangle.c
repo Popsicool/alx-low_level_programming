@@ -15,7 +15,7 @@ while (n <= size)
 int hash = 1;
 while (hash <= col)
 {
-_putchar("#");
+_putchar('#');
 hash++;
 }
 _putchar('\n');
