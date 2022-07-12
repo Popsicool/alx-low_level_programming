@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * void _puts - print a string followed by new line
+ * Description: Print a string followed by a new line
  * @str: Pointer to  the integer to be changed
  * Return: none
  */
