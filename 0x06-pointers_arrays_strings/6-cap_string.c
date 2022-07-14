@@ -7,26 +7,15 @@
 
 char *cap_string(char *str)
 {
-int count = 0, i;
-int separators[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
-if (*(str + count) >= 97 && *(str + count) <= 122)
+int i, j;
+char del[] = " \t\n,;.!?\"(){}";
+for (i = 0; s[i] != '\0'; i++)
 {
-count++;
-while (*(s + count) != '\0')
-{
-for (i = 0; i < 13; i++)
-{
-if (*(s + count) == separators[i])
-{
-if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
-{
-*(s + (count + 1)) = *(s + (count + 1)) - 32;
-break
+if (s[0] >= 97 && s[0] <= 122)
+s[0] = s[0] - 32;
+for (j = 0; del[j] != '\0'; j++)
+if (s[i] == del[j] && s[i + 1] >= 97 && s[i + 1] <= 122)
+s[i + 1] = s[i + 1] - 32;
 }
-}
-}
-}
-count+++;
-}
-return (str);
+return (s);
 }

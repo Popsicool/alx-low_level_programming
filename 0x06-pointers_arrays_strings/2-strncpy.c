@@ -8,13 +8,14 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-int a;
-a = 0;
-while (a < n && src[a] != '\0')
+int i;
+for (i = 0; src[i] != '\0' && i < n; i++)
 {
-dest[a] = src[a];
-a++;
+dest[i] = src[i];
 }
-dest[a] = '\0''
+for ( ; i < n; i++)
+{
+dest[i] = '\0';
+}
 return (dest);
 }
