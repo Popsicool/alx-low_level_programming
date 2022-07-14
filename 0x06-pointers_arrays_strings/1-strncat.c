@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - function to conc two strings
+ * *_strncat - function to conc two strings
  * @dest: pointer to the dest to be changed
  * @str: pointer to the char to be appended to dest
  * @n: max number of byte
