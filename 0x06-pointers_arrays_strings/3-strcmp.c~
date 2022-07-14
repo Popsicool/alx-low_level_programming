@@ -1,0 +1,11 @@
+#include "main"
+/**
+ * _strcmp - compare two strings
+ * @s1: first string
+ * @s2: second string
+ * Return: Always return 0
+ */
+int _strcmp(char *s1, char *s2)
+{
+
+}
