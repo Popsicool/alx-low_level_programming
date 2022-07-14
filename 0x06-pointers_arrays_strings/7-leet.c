@@ -4,20 +4,25 @@
  * @s: pointer to string to encode
  * Return: char
  */
-char *leet(char *)
+char *leet(char *s)
 {
-int i;
-int j;
-char l[] = "ol_ea__t";
-for (i = 0; s[i] != '\0'; i++)
+int count = 0, i;
+int low_letters[] = {97, 101, 111, 116, 108};
+int upp_letters[] = {65, 69, 79, 84, 76};
+int numbers[] = {52, 51, 48, 55, 49};
+
+while (*(s + count) != '\0')
 {
-for (j = 0; l[j] != '\0'; j++)
+for (i = 0; i < 5; i++)
 {
-if (s[i] == l[j] || s[i] == (l[j] - 32))
+if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
 {
-s[i] = j + '0';
+*(s + count) = numbers[i];
+break;
 }
 }
+count++;
 }
+
 return (s);
 }
