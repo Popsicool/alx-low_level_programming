@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 /**
  * string_nconcat - checking malloc
  * @s1: first string to concatenate
