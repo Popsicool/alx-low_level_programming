@@ -6,7 +6,7 @@
  * array_range -
  * @min: parameter for minimum
  * @max: parameter for maximum
- * Return: array of integers
+ * Return: array of integers or NULL
  */
 
 int *array_range(int min, int max)
@@ -16,9 +16,9 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 	n = max - min + 1;
-	array = malloc(sizeof(int) * n)
+	array = malloc(sizeof(int) * n);
 	if (array == NULL)
-		return (NUll);
+		return (NULL);
 	for (i = 0; i < n; i++)
 	array[i] = min++;
 	return (array);

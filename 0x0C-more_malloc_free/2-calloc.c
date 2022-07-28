@@ -5,7 +5,9 @@
  * _calloc - checking malloc
  * @nmemb: par1
  * @size: par2
- * Return: none
+ * Return: pointer to the allocated memory.
+ * if nmemb or size is 0, returns NULL.
+ * if malloc fails, returns NULL.
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -18,9 +20,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	mem = malloc(size * nmemb);
 	if (mem == NULL)
-		return (Null);
+		return (NULL);
 	filler = mem;
 	for (i = 0; i < (size * nmemb); i++)
-		filler[i] = '\0'
+		filler[i] = '\0';
 	return (mem);
 }
