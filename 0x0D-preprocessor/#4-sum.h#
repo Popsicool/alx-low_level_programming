@@ -1,5 +1,4 @@
-#ifndef ADD
-#define ADD
+#ifndef 4-sum.h
 
 #define SUM(x, y) ((x) + (y))
 
