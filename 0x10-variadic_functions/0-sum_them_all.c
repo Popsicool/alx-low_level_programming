@@ -1,4 +1,11 @@
 #include "variadic_functions.h"
+/**
+ * sum_them_all - add integers
+ * @n: number of intergers to add
+ * Return: integer value
+ */
+
+
 
 int sum_them_all(const unsigned int n, ...)
 {
