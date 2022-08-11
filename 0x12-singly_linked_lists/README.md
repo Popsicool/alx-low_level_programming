@@ -1,0 +1,1 @@
+This is a ALX project on singly linked lists where i have to learn about the concept of singly linked list, how its been used, what  its been used for and where it is been used
