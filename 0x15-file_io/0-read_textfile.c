@@ -1,6 +1,9 @@
-
 #include "main.h"
-
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdlib.h>
 /**
  * read_textfile -  reads a text file and prints it to the POSIX standard output.
  * @filename: pointer to the file to be read
@@ -11,7 +14,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
     int file;
-    char word;
+    char *word;
     ssize_t word_count, word_read;
 
     if (filename == NULL)
