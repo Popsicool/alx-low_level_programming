@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     mode_t mode;
     char buffer[1024];
 
-    mode = S_IRUSR | S_IWUSR;
+    mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
     if (argc != 3)
     {
         dprintf(STDERR_FILENO, "%s", "Usage: cp file_from file_to\n");
