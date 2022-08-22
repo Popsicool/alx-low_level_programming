@@ -1,14 +1,19 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <unistd.h>
 void check(int status,char type,int fd, char *name);
 
 
 int main(int argc, char *argv[])
 {
-    int status1, status2, status3, status4, i, n = 1024, word_write;
-    unsigned int mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
+    int status1, status2, status3, status4, n = 1024, word_write;
+    mode_t mode;
     char buffer[1024];
 
+    mode = S_IRUSR | S_IWUSR;
     if (argc != 3)
     {
         dprintf(STDERR_FILENO, "%s", "Usage: cp file_from file_to\n");
@@ -36,6 +41,7 @@ int main(int argc, char *argv[])
 
     status4 = close(status2);
     check(status4, 'c', -1, argv[2]);
+    return (0);
 }
 
 void check(int status, char type, int fd, char *name)
@@ -56,5 +62,4 @@ void check(int status, char type, int fd, char *name)
         dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
         exit(100);
     }
-    return (0);
 }
