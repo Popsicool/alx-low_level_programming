@@ -6,22 +6,23 @@
 * Return: Size of the list
 */
 
-size_t dlistint_len(const dlistint_t *h){
+size_t dlistint_len(const dlistint_t *h)
+{
 
- dlistint_t * head = h;
+dlistint_t *head = h;
 
-    size_t num = 0;
+size_t num = 0;
 
-    while (head->prev != NULL)
-    {
-        head = head->prev;
-    }
+while (head->prev != NULL)
+{
+head = head->prev;
+}
 
-    while (head != NULL)
-    {
-        head = head->next;
-        num++;
-    }
+while (head != NULL)
+{
+head = head->next;
+num++;
+}
 
-    return (num);
+return (num);
 }

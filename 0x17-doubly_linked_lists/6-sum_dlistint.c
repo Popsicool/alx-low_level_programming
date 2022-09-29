@@ -5,19 +5,20 @@
 * @head: double pointer to head of the node
 * Return:sum of the elements
 */
-int sum_dlistint(dlistint_t *head){
-    dlistint_t * h = head;
+int sum_dlistint(dlistint_t *head)
+{
+dlistint_t *h = head;
 
-    int sum = 0;
+int sum = 0;
 
-    while (h->prev != NULL)
-        h = h->prev;
+while (h->prev != NULL)
+h = h->prev;
 
-    while (h != NULL)
-    {
-        sum += h->n;
-        h = h->next;
-    }
+while (h != NULL)
+{
+sum += h->n;
+h = h->next;
+}
 
-    return (sum);
+return (sum);
 }
