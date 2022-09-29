@@ -9,18 +9,17 @@
 size_t dlistint_len(const dlistint_t *h)
 {
 
-dlistint_t *head = h;
 
 size_t num = 0;
 
-while (head->prev != NULL)
+while (h->prev != NULL)
 {
-head = head->prev;
+h = h->prev;
 }
 
-while (head != NULL)
+while (h != NULL)
 {
-head = head->next;
+h = h->next;
 num++;
 }
 

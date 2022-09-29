@@ -36,7 +36,8 @@ a->prev = head;
 a->n = n;
 a->next = b;
 b->prev = a;
-return (h);
+return (a);
 }
+
 return (NULL);
 }
