@@ -1,8 +1,9 @@
 #include "hash_tables.h"
 
- /**
+/**
  * shash_table_create - create a sorted hash table
  * @size: array size
+ * Description: create a sorted table
  * Return: pointer or null
  */
 shash_table_t *shash_table_create(unsigned long int size)
@@ -80,6 +81,14 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	check(ht, new_ht, temp_t, key);
 	return (1);
 }
+ /**
+  * check - run some checks
+  * @ht: par 1
+  * @new_ht: par 2
+  * @temp_t: par 3
+  * @key: par 4
+  * Return: none
+  */
 void check(shash_table_t *ht, shash_node_t *new_ht,
 		shash_node_t *temp_t, const char *key)
 {
