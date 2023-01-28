@@ -7,10 +7,14 @@
  * @high: upper bound of the array
  * @size: size of the array
  * @value: the value to be searched for in the array
+ * Return: index of the array
  */
 size_t inter_rec(int *array, size_t low, size_t high, size_t size, int value)
 {
-	size_t pos = low + (((double)(high - low) / (array[high] - array[low])) * (value - array[low]));
+	size_t pos = ((double)(high - low) / (array[high] - array[low]));
+
+	pos = pos * (value - array[low]);
+	pos = low + pos;
 
 
 	if (pos > size)

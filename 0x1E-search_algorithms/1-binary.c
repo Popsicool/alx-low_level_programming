@@ -1,9 +1,14 @@
 #include "search_algos.h"
 /**
- *
- *
+ * binary_rec - recursion function to solve the task
+ * @array: array to be searched
+ * @start: begining of the array
+ * @end: end of the array
+ * @mid: mid value
+ * @value: value to be sarched for
+ * Return: index if found or -1 if not
  */
-int binary_rec(int *array,size_t start, size_t end,int mid,  int value)
+int binary_rec(int *array, size_t start, size_t end, int mid, int value)
 {
 	size_t i, new_mid;
 
@@ -13,7 +18,10 @@ int binary_rec(int *array,size_t start, size_t end,int mid,  int value)
 		printf("%d, ", array[i]);
 	}
 	printf("%d\n", array[end - 1]);
-	if (array[mid] == value)                                   {                                                                  return ((int) mid);                                }
+	if (array[mid] == value)
+	{
+		return ((int) mid);
+	}
 
 	if ((end - start) == 1)
 	{
@@ -50,7 +58,7 @@ int binary_rec(int *array,size_t start, size_t end,int mid,  int value)
 int binary_search(int *array, size_t size, int value)
 {
 	size_t mid;
-	
+
 	if (size % 2 == 0)
 	{
 		mid = (size / 2) - 1;

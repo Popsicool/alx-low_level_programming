@@ -6,7 +6,7 @@
  * a value in an array of integers using the Linear search algorithm
  * @array: the array of integers ti search
  * @size: the size of the array
- * @value: thw value to search for 
+ * @value: thw value to search for
  * Return: the index if found or -1 if not found
  */
 int linear_search(int *array, size_t size, int value)
